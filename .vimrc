@@ -4,6 +4,8 @@ set nowrap
 scriptencoding utf-8
 set encoding=utf-8
 
+""" test
+
 """" START Vundle Configuration 
 
 " Disable file type for vundle
