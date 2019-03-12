@@ -39,6 +39,9 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'kevinhui/vim-docker-tools'
 
+""" Markdown
+Plugin 'JamshedVesuna/vim-markdown-preview'
+
 " Themes
 Plugin 'ajh17/Spacegray.vim'
 
