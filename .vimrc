@@ -11,6 +11,9 @@ set path+=**
 " Disable file type for vundle
 filetype off                  " required
 
+" If installed using Homebrew
+set rtp+=/usr/local/opt/fzf
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -28,11 +31,14 @@ Plugin 'Shougo/neocomplete.vim'
 Plugin 'Townk/vim-autoclose'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'ervandew/supertab'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
 
 """
 " @note: the command here is Ctrl+P
 """
-Plugin 'junegunn/fzf.vim'
+" If installed using Homebrew
+"Plugin '/usr/local/opt/fzf'
 
 """
 " @note: The command here is Ctrl+N
@@ -143,7 +149,7 @@ colorscheme spacegray
 " Keyboard Mappings
 """""""""""""""""""""
 
-map <C-n> :NERDTreeToggle<CR>
+map <C-m> :NERDTreeToggle<CR>
 map <C-q> :q
 map <C-s> :w
 map <C-t> :vsplit
