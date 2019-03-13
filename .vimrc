@@ -149,11 +149,12 @@ colorscheme spacegray
 " Keyboard Mappings
 """""""""""""""""""""
 
-map <C-m> :NERDTreeToggle<CR>
+map <C-n> :NERDTreeToggle<CR>
+map <C-p> :Files<CR>
 map <C-q> :q
 map <C-s> :w
 map <C-t> :vsplit
-map <C-c> :DockerToolsToggle
+map <C-c> :DockerToolsToggle<CR>
 map <C-l> :DockerToolsSetHost 192.168.99.100:2376
 
 " OSX stupid backspace fix
