@@ -33,6 +33,7 @@ Plugin 'ryanoasis/vim-devicons'
 Plugin 'ervandew/supertab'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
+Plugin 'vim-airline/vim-airline'
 
 """
 " @note: the command here is Ctrl+P
@@ -149,13 +150,14 @@ colorscheme spacegray
 " Keyboard Mappings
 """""""""""""""""""""
 
-map <C-n> :NERDTreeToggle<CR>
+map <C-m> :NERDTreeToggle<CR>
 map <C-p> :Files<CR>
 map <C-q> :q
 map <C-s> :w
 map <C-t> :vsplit
 map <C-c> :DockerToolsToggle<CR>
 map <C-l> :DockerToolsSetHost 192.168.99.100:2376
+map <C-i> :!open -a iTerm .<CR>
 
 " OSX stupid backspace fix
 set backspace=indent,eol,start
