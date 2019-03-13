@@ -3,8 +3,8 @@ syntax on
 set nowrap
 scriptencoding utf-8
 set encoding=utf-8
+set path+=**
 
-""" test
 
 """" START Vundle Configuration 
 
