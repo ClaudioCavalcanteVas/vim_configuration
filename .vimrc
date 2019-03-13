@@ -29,6 +29,22 @@ Plugin 'Townk/vim-autoclose'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'ervandew/supertab'
 
+"""
+" @note: the command here is Ctrl+P
+"""
+Plugin 'junegunn/fzf.vim'
+
+"""
+" @note: The command here is Ctrl+N
+" @link: https://github.com/terryma/vim-multiple-cursors#quick-start
+"""
+Plugin 'terryma/vim-multiple-cursors'  
+
+"""
+" @link: https://github.com/airblade/vim-gitgutter
+"""
+Plugin 'airblade/vim-gitgutter'
+
 " Programming
 Plugin 'vim-syntastic/syntastic'
 
