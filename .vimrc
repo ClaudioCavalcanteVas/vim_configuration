@@ -4,7 +4,7 @@ set nowrap
 scriptencoding utf-8
 set encoding=utf-8
 set path+=**
-
+set splitright
 
 """" START Vundle Configuration 
 
@@ -119,7 +119,7 @@ endif
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 let g:airline_powerline_fonts = 1
 
-" Neocomplete Plugin mappins
+" Neocomplete Plugin mappings
 inoremap <expr><C-g>     neocomplete#undo_completion()
 inoremap <expr><C-l>     neocomplete#complete_common_string()
 
@@ -155,9 +155,10 @@ map <C-p> :Files<CR>
 map <C-q> :q
 map <C-s> :w
 map <C-t> :vsplit
-map <C-S-d> :DockerToolsToggle<CR>
+map <C-c> :DockerToolsToggle<CR>
 map <C-l> :DockerToolsSetHost 192.168.99.100:2376
 map <C-i> :!open -a iTerm .<CR>
+
 
 " OSX stupid backspace fix
 set backspace=indent,eol,start
