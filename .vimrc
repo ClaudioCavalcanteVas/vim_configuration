@@ -155,7 +155,7 @@ map <C-p> :Files<CR>
 map <C-q> :q
 map <C-s> :w
 map <C-t> :vsplit
-map <C-c> :DockerToolsToggle<CR>
+map <C-S-d> :DockerToolsToggle<CR>
 map <C-l> :DockerToolsSetHost 192.168.99.100:2376
 map <C-i> :!open -a iTerm .<CR>
 
