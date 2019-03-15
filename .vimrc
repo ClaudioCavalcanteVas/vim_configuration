@@ -51,6 +51,7 @@ Plugin 'terryma/vim-multiple-cursors'
 " @link: https://github.com/airblade/vim-gitgutter
 """
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
 
 " Programming
 Plugin 'vim-syntastic/syntastic'
@@ -155,7 +156,7 @@ map <C-p> :Files<CR>
 map <C-q> :q
 map <C-s> :w
 map <C-t> :vsplit
-map <C-c> :DockerToolsToggle<CR>
+map <C-leader-d> :DockerToolsToggle<CR>
 map <C-l> :DockerToolsSetHost 192.168.99.100:2376
 map <C-i> :!open -a iTerm .<CR>
 
